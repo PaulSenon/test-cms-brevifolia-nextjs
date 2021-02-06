@@ -7,6 +7,6 @@
   "title": "Test post",
   "body": "Blablabla <a href=\"#\">test</a>",
   "gallery": [
-    "/uploads/test.jpg"
+
   ]
 }
