@@ -25,3 +25,5 @@ fields:
   label: Tags
   description: 'The tags of your post. It is used for seo and to organize content
     in categories '
+pages:
+- posts/test-post.json
