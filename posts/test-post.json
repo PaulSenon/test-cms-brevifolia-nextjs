@@ -5,5 +5,8 @@
     "Test3"
   ],
   "title": "Test post",
-  "body": "Blablabla <a href=\"#\">test</a>"
+  "body": "Blablabla <a href=\"#\">test</a>",
+  "gallery": [
+    "/uploads/test.jpg"
+  ]
 }
