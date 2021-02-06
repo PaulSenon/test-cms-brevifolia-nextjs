@@ -1,4 +1,27 @@
 ---
 label: Post
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The title of your post
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+  description: The core text of your post. You can use a bit of html such as &lt;p&gt;
+    or &lt;a&gt;
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'The tags of your post. It is used for seo and to organize content
+    in categories '
