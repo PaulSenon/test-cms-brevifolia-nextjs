@@ -25,5 +25,10 @@ fields:
   label: Tags
   description: 'The tags of your post. It is used for seo and to organize content
     in categories '
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  description: 'Your image gallery '
 pages:
 - posts/test-post.json
