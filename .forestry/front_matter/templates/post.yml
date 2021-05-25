@@ -30,5 +30,12 @@ fields:
   config: {}
   label: Gallery
   description: 'Your image gallery '
+- name: a
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: A
 pages:
 - posts/test-post.json
